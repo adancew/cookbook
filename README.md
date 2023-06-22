@@ -8,11 +8,15 @@ Program has been tested for Windows 10 and Debian 11.
 ## How to run the program
 1. download the source code
    Can be done with command:
+   
    $ git clone https://github.com/adancew/cookbook
+
    Or simply as a zip file like this:
+
    1.1 go to https://github.com/adancew/cookbook/
+
    1.2 click green button saying "Code" in upper right corner
-2. extract files and run main.py like a normal python script, for example like this:
+3. extract files and run main.py like a normal python script, for example like this:
    $ python3 main.py
 ## Functionality   
 <b>1. Home - recipe index</b>
