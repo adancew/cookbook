@@ -1,0 +1,207 @@
+
+#MainWindow {
+	background-color: #fff;
+}
+
+#btn_change {
+	padding: 5px;
+	border: none;
+	width: 30px;
+	height: 30px;
+}
+
+/* Style for header widget */
+#widget_search {
+	background-color: #f9fafd;
+}
+
+/* Styles for menu with icon only */
+#icon_only_widget {
+	background-color: #313a46;
+	width:50px;
+}
+
+#icon_only_widget QPushButton, QLabel {
+	height:50px;
+	border:none;
+}
+
+#icon_only_widget QPushButton:hover {
+	background-color: rgba( 86, 101, 115, 0.5);
+}
+
+#full_menu_widget {
+	background-color: #313a46;
+}
+
+#full_menu_widget QPushButton {
+	border:none;
+	border-radius: 3px;
+	text-align: left;
+	padding: 8px 0 8px 15px;
+	color: #788596;
+}
+
+#full_menu_widget QPushButton:hover {
+	background-color: rgba( 86, 101, 115, 0.5);
+}
+
+#full_menu_widget QPushButton:checked {
+	color: #fff;
+}
+
+#btn_search {
+	border: none;
+}
+
+#search_input {
+	border: none;
+	padding: 5px 10px;
+}
+
+#search_input:focus {
+	background-color: #70B9FE;
+}
+
+#btn_search {
+	border: none;	
+}
+
+#btn_search QPushButton:hover{
+	background-color: #70B9FE;
+}
+
+#btn_delete{
+	border-radius: 3px;
+	padding: 5px;
+	background-color: #fff;
+	border-bottom: 1px solid #b0b0b0;
+	width: 50px;
+	margin-right: 5px;
+}
+
+#btn_delete:hover{
+	background-color: #70B9FE;
+}
+
+#btn_export{
+	border-radius: 3px;
+	padding: 5px;
+	background-color: #fff;
+	border-bottom: 1px solid #b0b0b0;
+	width: 50px;
+	margin-right: 5px;
+}
+
+#btn_export:hover {
+	background-color: #70B9FE;
+}
+
+
+/* styles for main recipe index */
+#index_entry_widget {
+	border-radius: 5px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #b0b0b0;
+}
+
+#btn_index_name {
+	color: #2c5983;
+	font-size: 22px;
+	border: 1px;
+	border-radius: 3px;
+	background-color: #f9fafd;
+	border-bottom: 1px solid #b0b0b0;
+}
+
+#btn_index_name:hover {
+	background-color: #70B9FE;
+}
+
+#btn_index_check {
+	border: none;
+}
+#btn_index_check:checked {
+	background-color: #70B9FE;
+}
+
+/* styles for page with recipe details */
+#scroll_recipe QPushButton{
+	border-radius: 3px;
+	padding: 5px;
+	background-color: #f9fafd;
+	border-bottom: 1px solid #b0b0b0;
+}
+
+#scroll_recipe QPushButton:hover{
+	background-color: #70B9FE;
+}
+
+#recipe_name{
+	color: #2c5983;
+	font-size: 22px;
+}
+
+#recipe_cals{
+	font-size: 16px;
+}
+
+#recipe_time{
+	font-size: 16px;
+}
+
+/* styles for page with adding form */
+
+#scroll_adding QPushButton{
+	padding: 5px;
+	border-radius: 3px;
+	background-color: #f9fafd;
+	border-bottom: 1px solid #b0b0b0;
+}
+
+#scroll_adding QPushButton:hover{
+	background-color: #70B9FE;
+}
+
+
+/* styles for page with filters */
+#scroll_filters QPushButton{
+	padding: 5px;
+	border-radius: 3px;
+	background-color: #f9fafd;
+	border-bottom: 1px solid #b0b0b0;
+}
+
+#scroll_filters QPushButton:hover{
+	background-color: #70B9FE;
+}
+
+
+
+
+/* styles for discover page */
+#discover_input {
+	border: none;
+	padding: 5px 10px;
+}
+
+#discover_input:focus {
+	background-color: #70B9FE;
+}
+
+#label_discover_name {
+	color: #2c5983;
+	font-size: 22px;
+}
+
+#scroll_discover QPushButton{
+border-radius: 3px;
+	padding: 5px;
+	background-color: #f9fafd;
+	border-bottom: 1px solid #b0b0b0;
+}
+
+#scroll_discover QPushButton:hover{
+	background-color: #70B9FE;
+}
